@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h2 class="mb-0">Obtener URL Original</h2>
+    </div>
+    @if (sePuedeRedirigir){
+        <div class="card-body">
+            <button (click)="redirigir()" class="btn btn-primary">Ir a la Web</button>
+        </div>
+    } @else {
+        <div class="card-body">
+            <p class="text-danger">Se está obteniendo URL</p>
+        </div>
+    }
+</div>
