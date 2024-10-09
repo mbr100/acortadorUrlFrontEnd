@@ -16,9 +16,9 @@ export class ObtenerUrlOriginalComponent implements OnInit {
     public sePuedeRedirigir: boolean = false;
     private uuid: string = '';
 
-    constructor(private urlService: UrlService, private route: ActivatedRoute, private router:Router) {}
+    public constructor(private urlService: UrlService, private route: ActivatedRoute, private router:Router) {}
 
-    ngOnInit(): void {
+    public ngOnInit(): void {
         this.uuid = this.route.snapshot.params['uuid'];
         if (this.uuid) {
             this.obtenerUrlOriginal();
