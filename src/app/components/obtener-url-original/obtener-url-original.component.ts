@@ -12,8 +12,8 @@ import {ActivatedRoute, Router} from '@angular/router';
     styleUrls: ['./obtener-url-original.component.css']
 })
 export class ObtenerUrlOriginalComponent implements OnInit {
-    public urlLarga = '';
-    public sePuedeRedirigir = false;
+    public urlLarga: string = '';
+    public sePuedeRedirigir: boolean = false;
     private uuid: string = '';
 
     constructor(private urlService: UrlService, private route: ActivatedRoute, private router:Router) {}
