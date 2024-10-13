@@ -1,27 +1,65 @@
-# AcortadorUrlFrontEnd
+# Acortador de URL - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+Este es el frontend de la aplicación Acortador de URL, diseñado para permitir a los usuarios acortar y recuperar URLs de forma sencilla. Cuando un usuario ingresa una URL, esta aplicación la acorta y, posteriormente, permite la recuperación de la URL original.
 
-## Development server
+## Funcionalidad
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Acortar URL**: El usuario ingresa una URL en el campo correspondiente, y la aplicación genera una versión corta.
+2. **Recuperar URL original**: Al hacer clic en la URL corta generada, se recupera la URL original y se muestra un botón que permite redirigir al sitio web original.
 
-## Code scaffolding
+## Tecnologías Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular logo" width="20" height="20"/> Angular 18
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="Bootstrap logo" width="20" height="20"/> Bootstrap - para el diseño responsivo
+- <img src="https://rxjs.dev/assets/images/logos/Rx_Logo_S.png" alt="RXJS logo" width="20" height="20"/> RXJS - para manejar las operaciones asincrónicas y la programación reactiva
 
-## Build
+## Prerrequisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Asegúrate de tener instalados los siguientes elementos en tu sistema:
 
-## Running unit tests
+- **Node.js** (v14 o superior)
+- **Angular CLI** (v18 o superior)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/mbr100/acortadorUrlFrontEnd.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+   cd acortadorUrlFrontEnd
+    ```
+3. Instala las dependencias:
+    ```bash
+   npm install
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Ejecución
+Para ejecutar el proyecto en un entorno de desarrollo:
+```bash
+ng serve
+```
 
-## Further help
+Accede a la aplicación en tu navegador a través de http://localhost:4200.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Enlace al Backend
+Este proyecto requiere un backend en Spring Boot para funcionar correctamente. Puedes encontrar el backend del proyecto [aquí](https://github.com/mbr100/acortadorUrlBackEnd).
+
+## Contribuciones
+Las contribuciones son bienvenidas. Para contribuir:
+
+- Haz un fork del proyecto.
+- Crea una rama para tu función (feature/nueva-funcion).
+- Realiza un pull request con una descripción clara de tu contribución.
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0). Puedes usar, modificar y distribuir el código para fines no comerciales siempre que otorgues el crédito correspondiente a su autor, Mario Borrego. Para cualquier uso comercial de este software, por favor, contacta previamente con el autor.
+
+Para más detalles, visita: CC BY-NC 4.0.
+
+<div style="margin-top: 20px;">
+    <div class="footer" style="text-align: center;">
+        &copy; 2024 Mario Borrego
+    </div>
+</div>
